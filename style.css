@@ -1,0 +1,621 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto+Mono:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=PT+Sans&family=Roboto+Mono:wght@100;500&display=swap'); 
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.first-page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("naturetemplate.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo{
+    background-size: 100% 100%;
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 12px;
+    color: white;
+    margin-top: 33px;
+}
+ul{
+    margin: 40px;
+
+}
+.icons{
+    margin:-2px 4px;
+}
+.icons:hover{
+    color: red;
+}
+ li:hover{
+    scale: 1.25;
+}
+.content-first-page{
+    color: white;
+
+}
+.tagline{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 150px;
+      
+    font-family: 'PT Sans', sans-serif;
+}
+.club-name{
+    text-align: center;
+    font-size: 62px;
+    margin-top: 4px;
+  
+    position: relative;
+}
+.club-name::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 21%;
+    border-bottom: 3px solid white;
+    left: 40%;
+    right: 30%;
+}
+.quote{
+    position: absolute;
+    margin: 90px;
+    margin-right: 200px;
+    bottom:0 ;
+    right: 0;
+    font-size: 40px;
+    
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* second page starts */
+
+
+.second-page{
+  min-height: 100vh;
+  width: 100vw;
+  /* background: url("naturetemplate.jpeg"); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.acc-card{
+    width:335px;
+   min-height: 300px;
+  display: inline-block;
+    margin: 10vh;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.event-heading{
+    text-align: center;
+    font-size: 42px;
+    color: #f05a28;
+    font-weight: bolder;
+  position: relative;
+}
+.event-heading::after{
+
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 14%;
+    left: 42.5%;
+    right: 10%;
+    border-bottom:2px solid #f05a28;
+}
+.hidden-content{
+    display: none;
+    text-align: center;
+}
+.active .hidden-content{
+    display: block;
+}
+.acc-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.acc-title{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.icon{
+    font-size: 30px;
+    margin-top: 12px;
+    color:  rgb(87, 87, 198);
+}
+.close-sign{
+    display: none;
+}
+.sign-plus{
+    margin-right: 15px;
+}
+
+.shown-content{
+    text-align: center!important;
+}
+.acc-photo{
+    margin: 60px;
+    margin-bottom: 10px!important;
+    margin-top: 15px!important;
+}
+.acc-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.upcoming-title{
+    text-align: center;
+    font-size: 30px;
+    color: #f05a28;
+    font-weight: bolder;
+  position: relative;
+}
+.upcoming-title::after{
+
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 14%;
+    left: 42.5%;
+    right: 10%;
+    border-bottom:2px solid #f05a28;
+}
+.reg-write{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    border: 2px solid orangered;
+    font-size: 13px;
+    margin-right: 23px;
+    background-color: orangered;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.link-expire{
+    filter: grayscale(5);
+}
+.reg-icon{
+    font-size: 25px;
+    color:  rgb(87, 87, 198);
+}
+.reg-write-expire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    /* border: 2px solid orangered; */
+    font-size: 13px;
+    margin-right: 23px;
+    /* background-color: orangered; */
+    color: white;
+    border-radius: 12px;
+    background-color: #f6c381
+}
+
+/* team page starts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card{
+  
+    height: 295px;
+    width: 230px;
+background-color: white;
+    margin: 50px auto;
+border-radius: 10px!important;    
+ margin-bottom: 18px!important;
+ 
+border: 2px solid plum!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card:hover{
+    /* box-shadow: 0 0 90px 0 rgba(49, 42, 228, 0.1);  */
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+transform: scale(1.1);
+transition-duration: 0.5s;
+}
+.card-folder{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img{
+    margin: 10px 34px;
+     height: auto;
+    width: 158px;
+    border: 2px solid plum;
+    border-radius: 50%;
+}
+.sec{
+margin-top: 5px;
+text-align: center;
+font-weight: bolder;
+}
+.name{
+text-align: center;
+font-weight: 2px;
+
+position: relative;
+}
+.name::after{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: -30%;
+    width: 50%;
+     border-bottom: 2px solid plum;
+     left: 25%;
+     right: 30%;
+}
+.connect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1vh;
+}
+.insta{
+    height: 40px;
+    width: 44px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instag{
+    height: 4vh;
+    width: 3vw;
+}
+.facebook{
+    height:40px;
+    width: 44px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: blue;
+    border: 1px solid blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebooki{
+    height: 5.7vh;
+    width: 5vw;
+}
+.facebook:hover{
+    background-color: blue;
+    color: white;
+}
+.insta:hover{
+    background-color: red;
+    color: white; 
+}
+.card-folder{
+    display: flex;
+}
+.jointsec{
+    display: flex;
+    gap: 1rem;
+}
+.heading{
+   text-align: center;
+    font-size: 45px;
+    font-weight: 22px;
+    color: orangered;
+    position: relative;
+}
+.heading::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 21%;
+    border-bottom: 3px solid orangered;
+    left: 40%;
+    right: 30%;
+}
+.j-sec{
+    text-align: center;
+}
+.teamphoto{
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 280px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tempo{
+    margin-left: 9px;
+}
+.tempo p{
+    font-size: 18px;
+}
+/* contact page start */
+.contact-page{
+    height: 100vh;
+    width: 100vw;
+}
+.contact-title {
+    font-size: 50px;
+    color:#ff9100;
+    display: flex;
+    justify-content: center!important;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+  }
+.contact-title span{
+    margin-left: 25px;
+    color: #ff9100;
+}
+.contact-title::after{
+position: absolute;
+content: "";
+top: 0;
+bottom: 0;
+width: 20%;
+left: 40%;
+right: 0%;
+border-bottom:2px solid #ff9100 ;
+}
+
+  
+  .elem__block {
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient(to right, #f05a28, #ec008c);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+  
+  .elem__block:hover {
+    background: linear-gradient(145deg, #ff4000 0, #ff0099 100%);
+  }
+ 
+  
+  .hover-img:hover {
+    transform: scale(1.1);
+  }
+  .text-email{
+      margin-left: 300px;
+      color: #ff9100;
+      font-size: 30px;
+      font-weight: bold;
+      position: relative;
+      margin-top: 10px;
+  }
+  .text-email::after{
+position: absolute;
+content: "";
+top: 0;
+bottom: 0;
+width: 40%;
+right: 0%;
+left: 0.5%;
+border-bottom: 2px solid #ff9100;
+  }
+  .user-box{
+    margin-top: 50px;
+      height: 50vh;
+      width: 40vw;
+      margin-left: 50px;
+  }
+
+.top-user-write{
+    display: flex;
+    gap: 7px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#contact-name{
+    width: 290px;
+    background-color:  #f9f9f9;
+    height: 40px;
+    color: darkgrey;
+   
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+#contact-email{
+    width: 290px;
+    background-color:  #f9f9f9;
+    height: 40px;
+    color: darkgrey;
+   
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+#subject{
+    margin-top: 20px;
+    height: 50px;
+    background-color:  #f9f9f9;
+    width: 97%;
+    color: darkgrey;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+#message{
+    margin-top: 20px;
+    height: 150px;
+    background-color:  #f9f9f9;
+    color: darkgrey;
+    width: 97%;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+  
+}
+.user-our-text{
+    text-align: center;
+    font-size: 35px;
+    color: orangered;
+}
+.send{
+    height: 45px;
+    width: 97%;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: #ff9100;
+    margin-left: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+}
+.contact-flex{
+    display: flex;
+ gap: 4rem;
+}
+.otherplatforms{
+    display: flex;
+   
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 30vw;
+}
+.contact-insta{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #f05a28, #ec008c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-instagram-logo{
+    height: 70px;
+    width: 70px;
+    font-weight: lighter;
+}
+.contact-facebook{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #f05a28, #ec008c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-facebook-logo{
+    height: 70px;
+    width: 70px;
+    font-weight: lighter;
+}
+.contact-facebook-logo:hover{
+ transform: scale(1.1);
+}
+.contact-facebook:hover{
+    background: linear-gradient(145deg, #ff4000 0, #ff0099 100%);
+}
+.contact-instagram-logo:hover{
+    transform: scale(1.1);
+   }
+   .contact-insta:hover{
+       background: linear-gradient(145deg, #ff4000 0, #ff0099 100%);
+   }
+   .socialmedia{
+       display: flex;
+       flex-direction: column;
+       gap: 3rem;
+   }
+   .otherplatform-content{
+       font-size: 22px;
+       margin-left: 95px;
+       color: #ff9100;
+       font-weight: bolder;
+   }
+   .phone{
+       margin-top: 70px;
+       display: grid;
+       grid-template-columns: 45px auto ;
+
+   }
+   .email-contact-details{
+       margin-top: 30px;
+       display: grid;
+       grid-template-columns: 45px auto ;
+   }
+   .address{
+       margin-top: 30px;
+       display: grid;
+       grid-template-columns: 45px auto ;
+       gap: 10px;
+   }
+   .last-icons{
+       height: 40px;
+       width: 40px;
+       color: rgb(81, 78, 78);
+      
+   }
+    .last-icons:hover{
+        transform: scale(1.1);
+        color: orangered;
+    }
+   
